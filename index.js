@@ -50,21 +50,18 @@ for(var i =sentence.length-1; i>=0; i--){
 }
 
 
-// Bonus I
-for(var i = 0; i<=100; i++){
-    if (i % 3 === 0) {
-    console.log("fizz")
-    } else if (i % 5 === 0) {
-            console.log("buzz")
-    } else if (i % 3 === 0) && (i % 5 === 0){
-        console.log("fizzbuzz")
-    }
-    
-    
-    else { 
-        console.log(i)
-    }
-    
-}
 
 // Bonus 2 
+var totalb = 0
+var limitb = 10 
+while (totalb<=limitb){
+    totalb= totalb+1
+    console.log(totalb)
+}
+
+// Bonus 3
+
+var promo = [ "Ahmed","Alin","Bilal","Eloi","Evan","Hanaa","hélène","Jérémy", " Jong","Karimou","KévinA", "Kévin JM", "Marco","Chaïma", "Syrine","Salwa","Séverin","Rébéca","Vincent" ]
+console.log(promo[Math.random])
+
+// Bonus 4 
